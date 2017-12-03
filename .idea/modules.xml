@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://C:\Gemteks\SideProject\MyApplication.iml" filepath="C:\Gemteks\SideProject\MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SideProject.iml" filepath="$PROJECT_DIR$/SideProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SubLibrary/TestLibrary.iml" filepath="$PROJECT_DIR$/SubLibrary/TestLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
