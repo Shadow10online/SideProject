@@ -9,6 +9,9 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.shadow.testsubmodule.MainTest;
 
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
@@ -61,12 +64,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onSend(View view){
-        webview.loadUrl("javascript:(function(){"+
-                "l=document.getElementById('tsbb');"+
-                "e=document.createEvent('HTMLEvents');"+
-                "e.initEvent('click',true,true);"+
-                "l.dispatchEvent(e);"+
-                "})()");
+        Toast.makeText(this,MainTest.getWTF(),Toast.LENGTH_LONG).show();
+//        webview.loadUrl("javascript:(function(){"+
+//                "l=document.getElementById('tsbb');"+
+//                "e=document.createEvent('HTMLEvents');"+
+//                "e.initEvent('click',true,true);"+
+//                "l.dispatchEvent(e);"+
+//                "})()");
     }
 
     public void onDisconnect(View view){
